@@ -1,6 +1,39 @@
+# 247-encoding/results
 
-# tigergpu
+### 247-bobbi
+gpt2 prediction csvs __[for Bobbi]__
 
+### brainplot-20221122
+(glove gpt2n gpt2n-1) + 
+
+### brainplot-20230111
+(glove gpt2n gpt2n-1) + new sig list
+
+### cor_tfs
+(glove gpt bbot)
+
+### cor_tfs-20220123
+(glove gpt2n-1 gpt2n) + (area for -500~-100 ms)
+
+### cor_tfs-20220202
+(gpt2n-l24 whisper-en-onset-l4) + max cor
+
+### podcast
+- podcast-ctx-layer-mwf0: gpt2n-1 + context + layer 1~48
+- whisper: encoding on whisper-tiny/base.en embs __[for Aditi]__
+
+### ~~podcast-old~~
+- ~~podcast-ctx-layer-mwf0~~
+- ~~podcast-ctx-layer-mwf5~~
+- podcast-zaid-mwf=0: for Eric's results replication __[for Zaid]__
+- podcast-zaid-mwf=5: for Eric's results replication __[for Zaid]__
+
+### podcast-zeroshot [for 0shot paper 1st revision]
+
+### sig_test_new
+Trying out some new testing stuff with mixed Gaussian
+
+### tfs
 - __20221004-matlab-compare: compare with matlab, bug fixes__
 
 - 20221012-glove-concat: glove concat embeddings (up to n + 4) + pca/nopca
@@ -29,4 +62,7 @@
 
 - ~~20230130-whisper-encoder-onset~~: whisper-tiny.en en-only onset + ave tokens + layer 0~4 + windows 0.5/1/2.5/3/5 starting from the offset
 
-- 20230131-whisper-encoder: whisper-tiny.en en-only onset + ave tokens + layer 0~4 + windows starting from the onset __[Need to adjust for real onset]__
+- 20230131-whisper-encoder-onset: whisper-tiny.en en-only onset + ave tokens + layer 0~4 + windows starting from the onset __[Need to adjust for real onset]__
+
+### uriplot2
+(glove gpt2n gpt2n-1) + (all pred unpred) + (different brain regions)
