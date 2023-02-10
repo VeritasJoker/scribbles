@@ -54,7 +54,7 @@ Trying out some new testing stuff with mixed Gaussian
 
 - ~~20230119-whisper-for-grant~~: whisper-tiny.en + all tokens + layer 0~4 + double lags
 
-- ~~20230120-whisper-decoder~~: whisper-tiny.en de-only + all tokens + layer 2~3
+- 20230120-whisper-decoder: whisper-tiny.en de-only + all tokens + layer 2~3
 
 - ~~20230121-whisper-encoder~~: whisper-tiny.en en-only + all tokens + layer 1~4
 
@@ -62,7 +62,10 @@ Trying out some new testing stuff with mixed Gaussian
 
 - ~~20230130-whisper-encoder-onset~~: whisper-tiny.en en-only onset + ave tokens + layer 0~4 + windows 0.5/1/2.5/3/5 starting from the offset
 
-- 20230131-whisper-encoder-onset: whisper-tiny.en en-only onset + ave tokens + layer 0~4 + windows starting from the onset __[Need to adjust for real onset]__
+- ~~20230131-whisper-encoder-onset~~: whisper-tiny.en en-only onset + ave tokens + layer 0~4 + windows starting from the onset __[Grant results, but need to adjust for real onset]__
+
+- 20230210-whisper-encoder-onset: whisper-tiny.en en-only onset + ave tokens + layer 0~4 + windows starting from the onset
+
 
 ### uriplot2
 (glove gpt2n gpt2n-1) + (all pred unpred) + (different brain regions)
