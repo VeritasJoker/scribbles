@@ -1,3 +1,41 @@
+# 247-encoding/data
+
+### brainplot
+electrode coordinates plot, used for Matlab plotting
+
+### podcast_160.csv
+podcast significant electrodes
+
+### podcast-all.csv
+podcast all electrodes
+
+### podcast-old
+old podcast electrode csvs
+
+### sig-file-brainmap (2022-11-22)
+247 electrodes handpicked for a grant (glove gpt2n-1 gpt2n) + (pred-unpred area)
+
+### sig-file-region (2022-09/10)
+247 electrodes based on brain region (potentially handpicked for a grant)
+
+### sig-file-region2 (2022-10-25)
+247 electroes baesd on brain region (potentially handpicked for a grant)
+
+### 20230123-whisper-grant
+247 electrodes based on whisper vs gpt2n max correlations (handpicked for a grant)
+
+### tfs-glove-0.08+ (2022-11-29)
+247 electrodes based on glove max correlation >= 0.08
+
+### tfs-sig-file-old (2022-03)
+247 electrodes based on google significant electrode test
+
+### tfs-sig-file-old2 (2023-01-09)
+247 electrodes based on google significant electrode test
+
+
+
+
 # 247-encoding/results
 
 ### 247-bobbi
@@ -54,7 +92,7 @@ Trying out some new testing stuff with mixed Gaussian
 
 - ~~20230119-whisper-for-grant~~: whisper-tiny.en + all tokens + layer 0~4 + double lags
 
-- 20230120-whisper-decoder: whisper-tiny.en de-only + all tokens + layer 2~3
+- ~~20230120-whisper-decoder~~: whisper-tiny.en de-only + all tokens + layer 2~3
 
 - ~~20230121-whisper-encoder~~: whisper-tiny.en en-only + all tokens + layer 1~4
 
@@ -65,6 +103,8 @@ Trying out some new testing stuff with mixed Gaussian
 - ~~20230131-whisper-encoder-onset~~: whisper-tiny.en en-only onset + ave tokens + layer 0~4 + windows starting from the onset __[Grant results, but need to adjust for real onset]__
 
 - 20230210-whisper-encoder-onset: whisper-tiny.en en-only onset + ave tokens + layer 0~4 + windows starting from the onset
+
+- 20230212-whisper-decoder: whisper-tiny.en de-only + ave tokens + layer 0~4
 
 
 ### uriplot2
