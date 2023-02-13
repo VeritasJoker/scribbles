@@ -1,38 +1,28 @@
 # 247-encoding/data
 
-### brainplot
-electrode coordinates plot, used for Matlab plotting
+__brainplot__: electrode coordinates plot, used for Matlab plotting
 
-### podcast_160.csv
-podcast significant electrodes
+__podcast_160.csv__: podcast significant electrodes
 
-### podcast-all.csv
-podcast all electrodes
+__podcast-all.csv__: podcast all electrodes
 
-### podcast-old
-old podcast electrode csvs
+__podcast-old__: old podcast electrode csvs
 
-### sig-file-brainmap (2022-11-22)
-247 electrodes handpicked for a grant (glove gpt2n-1 gpt2n) + (pred-unpred area)
+__tfs-old__: old 247 electrode csvs + some testing for 717 elecs
 
-### sig-file-region (2022-09/10)
-247 electrodes based on brain region (potentially handpicked for a grant)
+__tfs-sig-file-old__: *(2022-03)* 247 electrodes based on google significant electrode test
 
-### sig-file-region2 (2022-10-25)
-247 electroes baesd on brain region (potentially handpicked for a grant)
+__sig-file-region__: *(2022-09/10)* 247 electrodes based on brain region (potentially handpicked for a grant)
 
-### 20230123-whisper-grant
-247 electrodes based on whisper vs gpt2n max correlations (handpicked for a grant)
+__sig-file-region2__: *(2022-10-25)* 247 electroes baesd on brain region (potentially handpicked for a grant)
 
-### tfs-glove-0.08+ (2022-11-29)
-247 electrodes based on glove max correlation >= 0.08
+__sig-file-brainmap__: *(2022-11-22)* 247 electrodes handpicked for a grant (glove gpt2n-1 gpt2n) + (pred-unpred area)
 
-### tfs-sig-file-old (2022-03)
-247 electrodes based on google significant electrode test
+__tfs-glove-0.08+__: *(2022-11-29)* 247 electrodes based on glove max correlation >= 0.08
 
-### tfs-sig-file-old2 (2023-01-09)
-247 electrodes based on google significant electrode test
+__tfs-sig-file-old2__: *(2023-01-09)* 247 electrodes based on google significant electrode test
 
+__20230123-whisper-grant__: 247 electrodes based on whisper vs gpt2n max correlations (handpicked for a grant)
 
 
 
