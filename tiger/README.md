@@ -72,7 +72,7 @@ Trying out some new testing stuff with mixed Gaussian
   - ~~(erp + gpt2n + gpt2n-1) + top/bot 0.3 (true_pred_prob)~~ __[token type]__
   - (glove) + top/bot/pred 0.3 (true_pred_prob)
 
-- 20221201-gpt2-preds-top5: glove + correct/incorrct/pred (rank 5)
+- 20221201-gpt2-preds-top5: glove + correct/incorrect/pred (rank 5)
 
 - 20221205-gpt2-preds-top1: glove + correct/incorret/pred (rank 1)
 
@@ -95,6 +95,18 @@ Trying out some new testing stuff with mixed Gaussian
 - 20230210-whisper-encoder-onset: whisper-tiny.en en-only onset + ave tokens + layer 0~4 + windows starting from the onset
 
 - 20230212-whisper-decoder: whisper-tiny.en de-only + ave tokens + layer 0~4
+
+- 20230214-gpt2-preds: (gpt2n + gpt2n-1) + correct/incorrect (rank 5) + top/bot (0.3)
+
+- 20230216-whisper-full: whisper-tiny.en + ave tokens + layer 0~4
+
+- 20230219-gpt2-layers: testing gpt2 layers for 247 grant
+
+- __20230220-xtraf-test: testing if xtraf makes a difference__
+
+- 20230221-pred-diffs: difference in prediction * (glove + gpt2n + gpt2n-1) + (rank 5 + rank 1 + pred 0.3)
+
+
 
 
 ### uriplot2
