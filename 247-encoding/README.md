@@ -100,13 +100,13 @@ Trying out some new testing stuff with mixed Gaussian
 
 - 20230216-whisper-full: whisper-tiny.en + ave tokens + layer 0~4
 
-- 20230219-gpt2-layers: testing gpt2 layers for 247 grant
+- ~~20230219-gpt2-layers~~: testing gpt2 layers for 247 grant
 
 - __20230220-xtraf-test: testing if xtraf makes a difference__
 
 - 20230221-pred-diffs: difference in prediction * (glove + gpt2n + gpt2n-1) + (rank 5 + rank 1 + pred 0.3)
 
-
+- 20230225-gpt2-layers: testing gpt2 layers for 247 grant
 
 
 ### uriplot2
