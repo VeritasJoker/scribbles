@@ -12,11 +12,14 @@
 
 `results/podcast/*-gpt2-xl-fold` is the gpt2 encoding results generated during 2st revision (within-fold embeddings), correspond to `resultfs/figures/gpt2-fold`
 
+`results/podcast/*-gpt2-xl-fold-2` is the gpt2 encoding results generated during 2st revision (within-fold embeddings) (aligned with glove50), correspond to `resultfs/figures/gpt2-fold-aligned`
+
 `results/podcast/*-glove50-concat10` is the glove encoding results generated during 2st revision (concatenation of previous 10 embeddings), correspond to `resultfs/figures/glove-concat`
 
 `results/podcast/*-glove50-concat10-2` is the glove encoding results generated during 2st revision (concatenation of previous 10 embeddings) (no leakage between folds) (aligned with gpt2), correspond to `resultfs/figures/glove-concat-aligned`
 
-`results/podcast/*-gpt2-xl-fold-2` is the gpt2 encoding results generated during 2st revision (within-fold embeddings) (aligned with glove50), correspond to `resultfs/figures/gpt2-fold-aligned`
+`results/podcast/*-glove50-concat10-3` is the glove encoding results generated during 2st revision (concatenation of previous 10 embeddings) (no leakage between folds) (aligned with gpt2) (near neighbor on PCA), correspond to `resultfs/figures/glove-concat-aligned`
+
 
 
 # 0shot-decoding
