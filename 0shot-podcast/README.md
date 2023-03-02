@@ -18,7 +18,11 @@
 
 `results/podcast/*-glove50-concat10-2` is the glove encoding results generated during 2st revision (concatenation of previous 10 embeddings) (no leakage between folds) (aligned with gpt2), correspond to `resultfs/figures/glove-concat-aligned`
 
-`results/podcast/*-glove50-concat10-3` is the glove encoding results generated during 2st revision (concatenation of previous 10 embeddings) (no leakage between folds) (aligned with gpt2) (near neighbor on PCA), correspond to `resultfs/figures/glove-concat-aligned`
+~~`results/podcast/*-glove50-concat10-3` is the glove encoding results generated during 2st revision (concatenation of previous 10 embeddings) (no leakage between folds) (aligned with gpt2) (near neighbor on PCA) (shit results, ignore)~~
+
+`results/podcast/*-glove50-concat10-4` is the glove encoding results generated during 2st revision (concatenation of previous 10 embeddings) (no leakage between folds) (aligned with gpt2) (early pca to fix from 3), correspond to `resultfs/figures/glove-concat-pca`
+
+`results/podcast/*-glove50-concat10-5` is the glove encoding results generated during 2st revision (concatenation of previous 10 embeddings) (no leakage between folds) (aligned with gpt2) (near-neighbor on just the last 50D), correspond to `resultfs/figures/glove-concat-pca2`
 
 
 
@@ -28,6 +32,6 @@ Any folder ending with `0`: not sure what those are (same args as `2`s?)
 
 Any folder ending with `2`: replication of original results
 
-Any folder ending with `3`: within-fold embeddings
+Any folder ending with `3`: within-fold embeddings (only have partial results, Mia should have all)
 
 

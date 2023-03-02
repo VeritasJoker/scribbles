@@ -106,7 +106,7 @@ Trying out some new testing stuff with mixed Gaussian
 
 - 20230221-pred-diffs: difference in prediction * (glove + gpt2n + gpt2n-1) + (rank 5 + rank 1 + pred 0.3)
 
-- 20230225-gpt2-layers: testing gpt2 layers for 247 grant
+- 20230225-gpt2-layers: testing gpt2 layers for 247 grant (some tokens wrongly deleted because aligning with gpt2-xl) (need 717 and 798 embedding regeneration)
 
 
 ### uriplot2
