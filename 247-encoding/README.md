@@ -102,12 +102,17 @@ Trying out some new testing stuff with mixed Gaussian
 
 - ~~20230219-gpt2-layers~~: testing gpt2 layers for 247 grant
 
-- __20230220-xtraf-test: testing if xtraf makes a difference__
+- __20230220-xtraf-test: testing if xtraf makes a difference__ __[Sadly it does, everything needs to rerun]__
 
 - 20230221-pred-diffs: difference in prediction * (glove + gpt2n + gpt2n-1) + (rank 5 + rank 1 + pred 0.3)
 
 - 20230225-gpt2-layers: testing gpt2 layers for 247 grant (some tokens wrongly deleted because aligning with gpt2-xl) (need 717 and 798 embedding regeneration)
 
+- 20230226-gpt2-preds: final 247 results for all preds (hopefully)
+
+- 20230228-all-embs: final 247 results for 20221024-gpt2 + 20221012-glove-concat
+
+- 20230303-whisper-preds: whisper decoder preds
 
 ### uriplot2
 (glove gpt2n gpt2n-1) + (all pred unpred) + (different brain regions)
