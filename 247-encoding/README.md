@@ -72,13 +72,15 @@ Trying out some new testing stuff with mixed Gaussian
   - ~~(erp + gpt2n + gpt2n-1) + top/bot 0.3 (true_pred_prob)~~ __[token type]__
   - (glove) + top/bot/pred 0.3 (true_pred_prob)
 
+- ~~20221102-bert: some bert testing stuff (not sure what exactly)~~
+
 - 20221201-gpt2-preds-top5: glove + correct/incorrect/pred (rank 5)
 
 - 20221205-gpt2-preds-top1: glove + correct/incorret/pred (rank 1)
 
 - ~~20230109-gpt2-preds-top5~~: (gpt2n + gpt2n-1) + correct/incorrect (rank 5) __[token type]__
 
-- __20230112-token-types: (gpt2n + gpt2n-1) + token types (all/first/last/mean/root)__
+- __~~20230112-token-types: (gpt2n + gpt2n-1) + token types (all/first/last/mean/root)~~__
 
 - ~~20230119-whisper-for-grant~~: whisper-tiny.en + all tokens + layer 0~4 + double lags
 
@@ -98,7 +100,9 @@ Trying out some new testing stuff with mixed Gaussian
 
 - 20230214-gpt2-preds: (gpt2n + gpt2n-1) + correct/incorrect (rank 5) + top/bot (0.3)
 
-- 20230216-whisper-full: whisper-tiny.en + ave tokens + layer 0~4
+- 20230224-gpt2-preds-della: (gpt2n + gpt2n-1) + correct/incorrect (rank 1)
+
+- 20230216-whisper-full: whisper-tiny.en + ave tokens + layer 0~4 (n-audio)
 
 - ~~20230219-gpt2-layers~~: testing gpt2 layers for 247 grant
 
@@ -108,7 +112,9 @@ Trying out some new testing stuff with mixed Gaussian
 
 - 20230225-gpt2-layers: testing gpt2 layers for 247 grant (some tokens wrongly deleted because aligning with gpt2-xl) (need 717 and 798 embedding regeneration)
 
-- 20230226-gpt2-preds: final 247 results for all preds (hopefully)
+- 20230226-gpt2-preds: final 247 results for all preds (gpt2n + gpt2n-1)
+
+- 20230227-gpt2-preds: final 247 results for all preds (glove + gpt2 aligned)
 
 - 20230228-all-embs: final 247 results for 20221024-gpt2 + 20221012-glove-concat
 
