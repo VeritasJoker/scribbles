@@ -100,7 +100,7 @@ Trying out some new testing stuff with mixed Gaussian
 
 - 20230214-gpt2-preds: (gpt2n + gpt2n-1) + correct/incorrect (rank 5) + top/bot (0.3)
 
-- 20230224-gpt2-preds-della: (gpt2n + gpt2n-1) + correct/incorrect (rank 1)
+- 20230214-gpt2-preds-della: (gpt2n + gpt2n-1) + correct/incorrect (rank 1)
 
 - 20230216-whisper-full: whisper-tiny.en + ave tokens + layer 0~4 (n-audio)
 
