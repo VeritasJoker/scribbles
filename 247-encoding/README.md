@@ -64,6 +64,7 @@ Trying out some new testing stuff with mixed Gaussian
 ### tfs
 
 Notes:
+
 __bold__ means a test for important code changes that potentially affect results
 
 ~~strikethrough~~ means old results, not needed (usually in `tfs-old`)
