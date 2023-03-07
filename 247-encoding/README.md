@@ -64,8 +64,9 @@ Trying out some new testing stuff with mixed Gaussian
 ### tfs
 
 Notes:
-__bold__ means important code change that potentially affect results
-~~cross-out~~ means old results, not needed (usually in `tfs-old`)
+__bold__ means a test for important code changes that potentially affect results
+
+~~strikethrough~~ means old results, not needed (usually in `tfs-old`)
 
 
 - __~~20221004-matlab-compare: compare with matlab, bug fixes~~__
