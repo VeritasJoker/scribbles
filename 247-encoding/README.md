@@ -62,6 +62,12 @@ gpt2 prediction csvs __[for Bobbi]__
 Trying out some new testing stuff with mixed Gaussian
 
 ### tfs
+
+Notes:
+__bold__ means important code change that potentially affect results
+~~cross-out~~ means old results, not needed (usually in `tfs-old`)
+
+
 - __~~20221004-matlab-compare: compare with matlab, bug fixes~~__
 
 - 20221012-glove-concat: glove concat embeddings (up to n + 4) + pca/nopca
