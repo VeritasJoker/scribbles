@@ -65,9 +65,9 @@ Trying out some new testing stuff with mixed Gaussian
 
 Notes:
 
-__bold__ means a test for important code changes that potentially affect results
+__bold__ means a test for important code changes that potentially affect results (every folder ran before __bold__ might be affected)
 
-~~strikethrough~~ means old results, not needed (usually in `tfs-old`)
+~~strikethrough~~ means old / not needed / not used results, usually have newer folders with exact same parameters (usually in `tfs-old`)
 
 
 - __~~20221004-matlab-compare: compare with matlab, bug fixes~~__
@@ -126,9 +126,10 @@ __bold__ means a test for important code changes that potentially affect results
 
 - 20230227-gpt2-preds: final 247 results for all preds (glove + gpt2 aligned)
 
-- 20230228-all-embs: final 247 results for 20221024-gpt2 + 20221012-glove-concat
+- 20230228-all-embs: final 247 results for 20221024-gpt2 (will also add 20221012-glove-concat)
 
-- 20230303-whisper-preds: whisper decoder preds
+- 20230303-whisper-preds: whisper decoder preds (preliminary results, Leo will rerun everything for whisper)
+
 
 ### uriplot2
 (glove gpt2n gpt2n-1) + (all pred unpred) + (different brain regions)
