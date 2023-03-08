@@ -133,3 +133,5 @@ __bold__ means a test for important code changes that potentially affect results
 
 ### uriplot2
 (glove gpt2n gpt2n-1) + (all pred unpred) + (different brain regions)
+
+# [Results](https://drive.google.com/drive/folders/1dUpeM7nPvRzbxXw98ZwAvV0AB64lZm97?usp=sharing)
