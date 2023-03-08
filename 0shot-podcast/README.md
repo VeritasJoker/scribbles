@@ -38,7 +38,3 @@ Any folder ending with `0`: not sure what those are (same args as `2`s?)
 Any folder ending with `2`: replication of original results
 
 Any folder ending with `3`: within-fold embeddings (only have partial results, Mia should have all in her folder)
-
-
-# [Results](https://drive.google.com/drive/folders/1HbIW6OzzGIDWYIFC9zZ-KqbSB_A7_y0L?usp=sharing)
-
